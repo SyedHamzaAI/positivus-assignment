@@ -14,7 +14,6 @@
   <!--
     Student: Syed Hamza Hussain
     Assignment: HTML and CSS — Positivus Landing Page
-    Note: Add your SMIT roll number here before submission if required.
   -->
 
   <header class="site-header container">
@@ -49,12 +48,12 @@
     </section>
 
     <section class="logo-strip container" aria-label="Client logos">
-      <span>amazon</span>
-      <span>dribbble</span>
-      <span>HubSpot</span>
-      <span>Notion</span>
-      <span>NETFLIX</span>
-      <span>zoom</span>
+      <div class="client-logo amazon-logo"><span>amazon</span><i></i></div>
+      <div class="client-logo dribbble-logo">dribbble</div>
+      <div class="client-logo hubspot-logo"><span class="hub-dot">●</span><span>HubSpot</span></div>
+      <div class="client-logo notion-logo"><span class="notion-box">N</span><span>Notion</span></div>
+      <div class="client-logo netflix-logo">NETFLIX</div>
+      <div class="client-logo zoom-logo">zoom</div>
     </section>
 
     <section id="services" class="section container">
@@ -70,6 +69,7 @@
             <a href="#contact" class="learn-link"><span class="arrow-circle dark">↗</span> Learn more</a>
           </div>
           <div class="service-visual visual-seo" aria-hidden="true">
+            <span class="seo-lines"></span>
             <span class="star">✦</span>
             <span class="bubble">SEO</span>
           </div>
@@ -81,8 +81,7 @@
             <a href="#contact" class="learn-link"><span class="arrow-circle dark">↗</span> Learn more</a>
           </div>
           <div class="service-visual visual-ppc" aria-hidden="true">
-            <span class="cursor">➤</span>
-            <span class="target">◎</span>
+            <span class="ppc-window"><i></i><b>↖</b></span>
           </div>
         </article>
 
@@ -92,7 +91,10 @@
             <a href="#contact" class="learn-link light-text"><span class="arrow-circle light">↗</span> Learn more</a>
           </div>
           <div class="service-visual visual-social" aria-hidden="true">
-            <span>♥</span><span>★</span><span>✉</span>
+            <span class="social-bot"><i></i><b>••</b></span>
+            <span class="social-chip chip-one">♥</span>
+            <span class="social-chip chip-two">★</span>
+            <span class="social-chip chip-three">▣</span>
           </div>
         </article>
 
@@ -101,7 +103,9 @@
             <h3><span>Email</span><span>Marketing</span></h3>
             <a href="#contact" class="learn-link"><span class="arrow-circle dark">↗</span> Learn more</a>
           </div>
-          <div class="service-visual visual-email" aria-hidden="true">@</div>
+          <div class="service-visual visual-email" aria-hidden="true">
+            <span class="mail-orbit"></span><span class="mail-icon">✉</span>
+          </div>
         </article>
 
         <article class="service-card green-card">
@@ -109,7 +113,9 @@
             <h3><span>Content</span><span>Creation</span></h3>
             <a href="#contact" class="learn-link"><span class="arrow-circle dark">↗</span> Learn more</a>
           </div>
-          <div class="service-visual visual-content" aria-hidden="true">✎</div>
+          <div class="service-visual visual-content" aria-hidden="true">
+            <span class="content-card c1">SEO</span><span class="content-card c2">BLOG</span><span class="content-card c3">IDEA</span>
+          </div>
         </article>
 
         <article class="service-card dark-card">
@@ -118,7 +124,9 @@
             <a href="#contact" class="learn-link light-text"><span class="arrow-circle light">↗</span> Learn more</a>
           </div>
           <div class="service-visual visual-analytics" aria-hidden="true">
-            <i></i><i></i><i></i><i></i>
+            <span class="chart-sheet">
+              <i></i><i></i><i></i><i></i>
+            </span>
           </div>
         </article>
       </div>
